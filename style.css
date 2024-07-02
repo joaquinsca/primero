@@ -1,0 +1,21 @@
+.guitarra{
+    float: left;
+    width: 10%;
+   
+}
+
+.guitarra img {
+    height: 396px;
+}
+
+.bajo{
+    float: left;
+    width: 20%;
+    margin-left: 210px;
+}
+.saxo{
+    float: left;
+    width: 5%;
+    margin-left: 50px;
+
+}

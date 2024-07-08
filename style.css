@@ -1,21 +1,32 @@
-.guitarra{
-    float: left;
-    width: 10%;
-   
-}
 
-.guitarra img {
-    height: 396px;
-}
-
-.bajo{
-    float: left;
-    width: 20%;
-    margin-left: 210px;
-}
-.saxo{
-    float: left;
-    width: 5%;
-    margin-left: 50px;
+.contenedor{
+   margin-top: 200px;
+   margin-right: 200px;
+   margin-left: 200px;
+    
 
 }
+.conteiner-espacio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.img1{
+    width: 200px;
+    height: 700px;
+    
+}
+.img1:hover{
+    
+ border-radius:50%;
+ -webkit-border-radius:50%;
+ box-shadow: 0px 0px 15px 15px #0732f0;
+ -webkit-box-shadow: 0px 0px 15px 15px #1b3eb1;
+ transform: rotate(360deg);
+ -webkit-transform: rotate(360deg);
+
+
+}
+
+

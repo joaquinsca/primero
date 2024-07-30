@@ -1,3 +1,4 @@
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -12,17 +13,18 @@ li {
     }
 li a{
     color: rgb(8, 243, 0);
-    padding: 525px 49px;
+    padding: 375px 13px;
     display: block;
+    border: solid #535353 2px;
 }
           
 a {
     display: block;
-    padding: 8px;
+    padding: 10px;
     background-color: #000000;
 }
 li a:hover{
-background-color: #ffffff;
+background-color: #535353;
 }   
 html{
     background-color: #000000;

@@ -1,0 +1,47 @@
+header{
+    background-color: black;
+}
+body{
+    background-color: #535353;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.LA{
+    display: flex;
+    justify-content: center;
+    
+}
+div{
+    
+    margin-top: 110px;
+    text-align: center;
+   
+}
+
+img{
+    width: 150px;
+}
+.LA div{
+    padding: 20px 25px;
+    
+}
+.LA div:hover{
+    background-color: #424242;
+    
+}
+main a{
+    color: rgb(38, 224, 21);
+}
+
+main .salir:hover{
+   
+    background-color: red;
+}
+.salir{
+    padding: 10px ;
+    margin-left: 650px;
+    margin-right: 650px;
+    text-align: center;
+}

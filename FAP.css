@@ -8,7 +8,7 @@ h1{
     text-align: center;
     color: aliceblue;
 }
-.DO{
+.FA{
     display: flex;
     justify-content: center;
     
@@ -23,11 +23,11 @@ div{
 img{
     width: 150px;
 }
-.DO div{
+.FA div{
     padding: 20px 25px;
     
 }
-.DO div:hover{
+.FA div:hover{
     background-color: #424242;
     
 }

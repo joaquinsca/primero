@@ -1,4 +1,13 @@
-
+html{
+    background: no-repeat;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/434/619/752/guitar-running-fender-wallpaper-preview.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -7,19 +16,22 @@ ul {
 }
 
 li {
-    display: inline;
-    float: left;
+    display: flex;
+    float: center;
+    margin: auto;
    
     }
 li a{
     color: rgb(8, 243, 0);
-    padding: 520px 50%;
+    padding: 60px 300px;
     display: block;
     border: solid #535353 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
           
 a {
-    display: block;
+    display: flex;
     padding: 10px;
     background-color: #000000;
 }

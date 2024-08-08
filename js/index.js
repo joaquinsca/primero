@@ -7,7 +7,7 @@ btnLogin.addEventListener('click', event => {
   }
   const form = new FormData(formLogin)
   form.append("function", "login")
-  fetch("data/Users.php", {
+  fetch("data/users.php", {
     method: "POST",
     body: form
   })

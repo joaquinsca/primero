@@ -8,31 +8,28 @@ html{
     height: auto;
     
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
 
 li {
-    display: flex;
-    float: center;
-    margin: auto;
+    display: inline;
+    float: left;
+    
    
     }
 li a{
     color: rgb(8, 243, 0);
-    padding: 60px 300px;
+    padding: 10px;
+    text-align: center;
     display: block;
     border: solid #535353 2px;
-    margin-left: auto;
-    margin-right: auto;
+    
+    
 }
           
 a {
+    margin: 0px;
+    padding: 0px;
+    width: 170px;
     display: flex;
-    padding: 10px;
     background-color: #000000;
 }
 li a:hover{

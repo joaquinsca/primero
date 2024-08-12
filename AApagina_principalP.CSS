@@ -1,6 +1,6 @@
 html{
     background: no-repeat;
-    background-image: url("https://www.aulart.com/wp-content/uploads/2023/02/piano-g998a1b002_1280.jpg");
+    background-image: url("pian.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ li {
    
     }
 li a{
-    color: rgb(8, 243, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
     display: block;

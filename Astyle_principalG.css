@@ -1,6 +1,6 @@
 html{
     background: no-repeat;
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/434/619/752/guitar-running-fender-wallpaper-preview.jpg");
+    background-image: url("guit.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ li {
    
     }
 li a{
-    color: rgb(8, 243, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
     display: block;

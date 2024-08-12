@@ -4,14 +4,24 @@ li {
     
    
     }
-li a{
-    color: rgb(8, 243, 0);
-    padding: 350px 170px;
+.p a{
+    color: rgb(255, 255, 255);
+    padding: 470px 300px;
     text-align: center;
     display: block;
     border: solid #535353 2px;
+    background-image: url("p.jpg");
+    background-size: cover;
     
-    
+}
+.g a{
+    color: rgb(255, 255, 255);
+    padding: 470px 300px;
+    text-align: center;
+    display: block;
+    border: solid #535353 2px;
+    background-image: url("g.jpg");
+    background-size: cover;  
 }
           
 a {
@@ -20,6 +30,7 @@ a {
     width: 300px;
     display: block;
     background-color: #000000;
+    font-size: 50px;
 }
 li a:hover{
 background-color: #535353;
@@ -27,3 +38,5 @@ background-color: #535353;
 html{
     background-color: #000000;
 }
+
+

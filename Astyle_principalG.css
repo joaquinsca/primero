@@ -14,7 +14,7 @@ li {
     float: left;
     
    
-    }
+}
 li a{
     color: rgb(255, 255, 255);
     padding: 10px;
@@ -31,10 +31,24 @@ a {
     width: 170px;
     display: flex;
     background-color: #000000;
+    text-decoration: none;
 }
 li a:hover{
 background-color: #535353;
 }   
 html{
     background-color: #000000;
+}
+main .PR{
+    color: rgb(255, 255, 255);
+}
+
+
+.salir{
+    display: flex ;
+    justify-content: center;
+    padding-left: 60px;
+    padding-top: 650PX;
+    margin: auto;
+    text-align: center;
 }

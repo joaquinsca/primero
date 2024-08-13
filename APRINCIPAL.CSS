@@ -5,23 +5,34 @@ li {
    
     }
 .p a{
-    color: rgb(255, 255, 255);
-    padding: 470px 300px;
+    color: rgb(53, 53, 53);
+    padding: 320px 65px;
     text-align: center;
     display: block;
     border: solid #535353 2px;
-    background-image: url("p.jpg");
+    background-image: url("piano2.jpg");
     background-size: cover;
     
 }
 .g a{
     color: rgb(255, 255, 255);
-    padding: 470px 300px;
+    padding: 320px 65px;
     text-align: center;
     display: block;
     border: solid #535353 2px;
     background-image: url("g.jpg");
     background-size: cover;  
+}
+.A a{
+    
+    color: rgb(255, 255, 255);
+    padding: 320px 65px;
+    text-align: center;
+    display: block;
+    border: solid #535353 2px;
+    background-image: url("A.jpg");
+    background-size: cover;  
+    
 }
           
 a {
@@ -29,8 +40,9 @@ a {
     padding: 0px;
     width: 300px;
     display: block;
-    background-color: #000000;
+    background-color: #ffffff;
     font-size: 50px;
+    text-decoration: none;
 }
 li a:hover{
 background-color: #535353;

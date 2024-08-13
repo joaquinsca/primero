@@ -30,11 +30,26 @@ a {
     width: 190px;
     display: flex;
     background-color: #000000;
+    text-decoration: none;
 }
 li a:hover{
 background-color: #535353;
 }   
 html{
     background-color: #000000;
+}
+
+main .PR2{
+    color: rgb(255, 255, 255);
+}
+
+
+.salir{
+    display: flex ;
+    justify-content: center;
+    padding-right: 150px;
+    padding-top: 650PX;
+    margin: auto;
+    text-align: center;
 }
 

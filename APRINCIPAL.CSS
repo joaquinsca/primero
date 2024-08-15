@@ -10,7 +10,7 @@ li {
     text-align: center;
     display: block;
     border: solid #535353 2px;
-    background-image: url("piano2.jpg");
+    background-image: url("imagenes/piano2.jpg");
     background-size: cover;
     
 }
@@ -20,7 +20,7 @@ li {
     text-align: center;
     display: block;
     border: solid #535353 2px;
-    background-image: url("g.jpg");
+    background-image: url("imagenes/g.jpg");
     background-size: cover;  
 }
 .A a{
@@ -30,7 +30,7 @@ li {
     text-align: center;
     display: block;
     border: solid #535353 2px;
-    background-image: url("A.jpg");
+    background-image: url("imagenes/A.jpg");
     background-size: cover;  
     
 }

@@ -1,11 +1,14 @@
+html{
+    background-image: url(acordes/fondo\ principal.jpg);
+}
 li {
     display: inline;
-    float: left;
+    float:left ;
     
    
     }
 .p a{
-    color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
     padding: 320px 65px;
     text-align: center;
     display: block;

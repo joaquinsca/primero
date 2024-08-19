@@ -1,4 +1,9 @@
+.PR2{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: solid red;
 
+}
 body {
     background: url(https://cdn.josetxu.com/img/ogt-bg.jpg)repeat center center #000;
     font-family: Arial, Helvetica, San-serif;

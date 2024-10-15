@@ -4,8 +4,8 @@
 require("sistema.php");
 
 try {
-  $username = $_POST["username"];
-  $pass = $_POST["pass"];
+  $username = $_POST["usernameregistro"];
+  $pass = $_POST["passregistro"];
 
   $query = $conexion->prepare("INSERT INTO `usuarios`(`usuario`, `contraseña`) VALUES (:username,:pass)");
   $query->execute([":username" => $username, ":pass" => $pass]);

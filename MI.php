@@ -1,4 +1,4 @@
-<?php require("./data/sistema.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acordes de MI</title>
     <link rel="stylesheet" href="MI.css">
+    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
 </head>
 <header>
     <H1>Acordes de MI</H1>

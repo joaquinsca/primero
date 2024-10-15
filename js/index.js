@@ -1,3 +1,4 @@
+//toma los datos del campo de inicio de sesion
 const formLogin = document.querySelector("#formLogin")
 formLogin.addEventListener('submit', event => {
   event.preventDefault()
@@ -20,20 +21,19 @@ formLogin.addEventListener('submit', event => {
       }
       //alerta que no pudiste iniciar sesion
       sessionStorage.setItem("user", JSON.stringify(json))
-      window.location.href = "./APRINCIPAL.php";
+      window.location.href = "./index.php";
     })
 })
 
 document.querySelector("#formRegister").addEventListener('submit', event => {
   event.preventDefault()
   //revisa que todos los campos estan llenos
-  if (UsuarioRegistro.value == "" || ContraseñaRegistro.value == "") {
+  if (usernameregistro.value == "" || passregistro.value == "") {
     alert("Completa todos los campos...")
     return false
   }
-  const form = new FormData(formLogin)
-  form.append("function", "login")
-  console.log(form);
+  const form = new FormData(document.querySelector("#formRegister"))
+  form.append("function", "register")
   fetch("data/registro.php", {
     method: "POST",
     body: form

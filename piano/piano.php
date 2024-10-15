@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pianito</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="../imagenes/icono.png" type="image/x-icon">
 </head>
 <body>
     <div class="texto"><p>cada tecla tiene su letra correspondiente <br>si apretas en el teclado suena el piano</p></div>
@@ -26,9 +27,10 @@
 
     </ul>
 
-    <main>    
-    <center><button class="btn" onclick="window.location.href='../APRINCIPAL.php'"><strong>volver</strong></button></center>
-</main>
+<footer>
+<center><button class="btn" onclick="window.location.href='../index.php'"><strong>volver</strong></button></center>
+</footer>
+    
 
 </body>
 <script src="piano.js"></script>

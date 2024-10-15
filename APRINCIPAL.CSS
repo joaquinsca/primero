@@ -1,75 +1,87 @@
 html{
     background-image: url(imagenes/fondo2.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.6)
 }
-
+.presentacion{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: solid black 5px;
+    border-right: solid black 5px;
+    border-top: solid gray 5px;
+    border-left: solid gray 5px;
+}
 li {
     display: inline ;
     float:left ;
-    margin-left: 80px;
+    align-items: center;
+    margin-left: 150px;
+}
+.sip{
+    align-items: center;
 }
 .p a{
+    width: 100%;
+    height: 100%;
     color: rgb(255, 255, 255);
-    padding: 100px 30px;
+    padding: 135px 40px;
     text-align: center;
     display: block;
-    border: solid #000000 5px;
+    border-bottom: solid black 5px;
+    border-right: solid black 5px;
+    border-top: solid gray 5px;
+    border-left: solid gray 5px;
     background-image: url("imagenes/piano2.jpg");
     background-size: cover;
-    margin-top: 200px;
-    
+    margin-top: 220px;
     
 }
+
 .p a:hover{
-    transition: 0.7s;
+    transition: 0.5s;
     transform: scale(0.9);
     opacity: 0.8;
 }
 .g a{
-    color: rgb(255, 255, 255);
-    padding: 100px 30px;
-    text-align: center;
-    display: block;
-    border: solid #000000 5px;
-    background-image: url("imagenes/g.jpg");
-    background-size: cover; 
-    margin-top: 200px; 
+
+width: 100%;
+height: 100%;
+color: rgb(255, 255, 255);
+padding: 135px 40px;
+text-align: center;
+display: block;
+border-bottom: solid black 5px;
+border-right: solid black 5px;
+border-top: solid gray 5px;
+border-left: solid gray 5px;
+background-image: url("imagenes/g.jpg");
+background-size: cover;
+margin-top: 220px;
 }
 .g a:hover{
-    transition: 0.7s;
+    transition: 0.5s;
     transform: scale(0.9);
     opacity: 0.8;
 }
 
 .A a{
-    
-    color: rgb(255, 255, 255);
-    padding: 100px 30px;
+    color: rgb(0, 0, 0);
+    padding: 135px 40px;
     text-align: center;
     display: block;
-    border: solid #000000 5px;
-    background-image: url("imagenes/pian.jpg");
+    border-bottom: solid black 5px;
+    border-right: solid black 5px;
+    border-top: solid gray 5px;
+    border-left: solid gray 5px;
+    background-image: url("imagenes/piano3.jpg");
     background-size: cover;  
-    margin-top: 200px;
+    margin-top: 220px;
 }
 .A a:hover{
-    transition: 0.7s;
-    transform: scale(0.9);
-    opacity: 0.8;
-}
-.G a{
-    
-    color: rgb(255, 255, 255);
-    padding: 100px 30px;
-    text-align: center;
-    display: block;
-    border: solid #000000 5px;
-    background-image: url("imagenes/guit.jpg");
-    background-size: cover;  
-    margin-top: 200px;
-}
-.G a:hover{
-    transition: 0.7s;
+    transition: 0.5s;
     transform: scale(0.9);
     opacity: 0.8;
 }
@@ -91,4 +103,60 @@ html{
     background-color: #ffffff;
 }
 
-
+.btn {
+    margin-top: 30px;
+    margin-left: 1600px;
+    --color: #000000;
+    --color2: rgb(255, 255, 255);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 3.8x solid black;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+   }
+   
+   .btn::after, .btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   
+   .btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover {
+    color: var(--color2);
+   }
+   
+   .btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }

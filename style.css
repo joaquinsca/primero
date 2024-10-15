@@ -1,8 +1,8 @@
 html{
-    background-image: url(imagenes/inicio\ de\ sesion.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 20PX;
+  background-image: url(imagenes/inicio\ de\ sesion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .wrapper {
     --input-focus: rgb(19, 24, 32);
@@ -14,9 +14,9 @@ html{
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    margin-top: 400px;
+    margin-top: 440px;
   }
-  /* switch card */
+
   .switch {
     transform: translateY(-200px);
     position: relative;
@@ -32,9 +32,10 @@ html{
   .card-side::before {
     position: absolute;
     content: 'Iniciar';
+    background-color: #fff9f9;
     left: -70px;
     top: 0;
-    width: 100px;
+    width: 50px;
     text-decoration: underline;
     color: var(--font-color);
     font-weight: 600;
@@ -42,10 +43,11 @@ html{
   
   .card-side::after {
     position: absolute;
-    content: 'Registrarse';
+    content: 'Registrarse ';
+    background-color: #ffffff;
     left: 70px;
     top: 0;
-    width: 100px;
+    width: 80px;
     text-decoration: none;
     color: var(--font-color);
     font-weight: 600;
@@ -57,7 +59,7 @@ html{
     height: 0;
   }
   
-  .slider {
+  .slider {    
     box-sizing: border-box;
     border-radius: 5px;
     border: 2px solid var(--main-color);
@@ -103,7 +105,7 @@ html{
     text-decoration: underline;
   }
   
-  /* card */ 
+  
   
   .flip-card__inner {
     width: 300px;
@@ -200,3 +202,60 @@ html{
     color: var( --font-color-sub);
     cursor: pointer;
   } 
+
+  .btn {
+    margin-top: 185px;
+    --color: #000000;
+    --color2: rgb(255, 255, 255);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+   border: solid black 5px;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+   }
+   
+   .btn::after, .btn::before {
+    content: '';
+    display: block;
+    height: 101%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   
+   .btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover {
+    color: var(--color2);
+   }
+   
+   .btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }

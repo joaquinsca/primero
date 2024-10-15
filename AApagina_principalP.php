@@ -1,4 +1,3 @@
-<?php require("./data/sistema.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acordes de piano</title>
     <link rel="stylesheet" href="AApagina_principalP.CSS">
+    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
 </head>
 <div class="fondo">
 <header>
@@ -30,7 +30,7 @@
 </header>
 <body>
 <main>    
-<center><button class="btn" onclick="window.location.href='APRINCIPAL.php'"><strong>volver</strong></button></center>
+<center><button class="btn" onclick="window.location.href='index.php'"><strong>volver</strong></button></center>
 </main>
 </body>
 </div>

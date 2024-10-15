@@ -6,12 +6,12 @@ html{
     background-attachment: fixed;
     width: auto;
     height: auto;
-   font-family: "Nerko One";
-   font-size: 17px;
+    font-family: "Nerko One";
+    font-size: 17px;
 }
 
 .fondo{
-    background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   height: 96vh;
   margin: 0px;
   border: solid black 2px;
@@ -19,15 +19,19 @@ html{
 li {
     display: inline ;
     float:left ;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 60px;
+    margin-right: 50px;
+    backdrop-filter: blur(3px);
 }
 li a{
     color: rgb(255, 255, 255);
-    padding: 115px 20px;
+    padding: 180px 50px;
     text-align: center;
     display: block;
-    border: solid #ffffff 5px;
+    border-bottom: solid black 5px;
+    border-right: solid black 5px;
+    border-top: solid gray 5px;
+    border-left: solid gray 5px;
     background-size: cover;
     margin-top: 10px;
 }
@@ -35,7 +39,7 @@ li a:hover{
     transition: 0.7s;
     transform: scale(0.9);
     opacity: 0.8;
-    background-color: #fffdfdc9;
+    background-color: #5e5e5ec9;
     color: black;
 }
 html{
@@ -45,8 +49,8 @@ html{
 
 .btn {
     margin-top: 40px;
-    --color: #919191;
-    --color2: rgb(255, 255, 255);
+    --color: #ffffff;
+    --color2: rgb(0, 0, 0);
     padding: 0.8em 1.75em;
     background-color: transparent;
     border-radius: 6px;
@@ -66,7 +70,7 @@ html{
    .btn::after, .btn::before {
     content: '';
     display: block;
-    height: 100%;
+    height: 101%;
     width: 100%;
     transform: skew(90deg) translate(-50%, -50%);
     position: absolute;
